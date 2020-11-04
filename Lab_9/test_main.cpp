@@ -61,7 +61,7 @@ int main(int argc, char* argv[])
     * first print the size of the set containing this element,
     * then print the print the element to its root.
     */
-    std::cout << ds->getSetSize(i) << "\n";
+    cout<< ds->getSetSize(i)<<endl;
     ds->print(i);
   }
   // perform the rest half of the union operations
